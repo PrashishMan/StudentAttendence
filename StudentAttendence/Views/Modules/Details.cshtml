@@ -1,0 +1,77 @@
+﻿@model IList<StudentAttendence.Models.TeacherRoleModule>
+
+@{
+
+    ViewBag.Title = "Details:Module";
+    var FacultyID = ViewData["FacultyID"];
+    var FacultyName = ViewData["FacultyName"];
+    var ModuleName = ViewData["ModuleName"];
+    var ModuleType = ViewData["ModuleType"];
+}
+
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <strong>Details :</strong><Label>@ModuleName</Label>
+            </div>
+
+            <div class="card-body">
+                <table>
+                    <tr>
+                        <th>FacultyID</th>
+                        <td>@FacultyID</td>
+                    </tr>
+                    <tr>
+                        <th>FacultyName</th>
+                        <td>@FacultyName</td>
+                    </tr>
+                    <tr>
+                        <th>Module</th>
+                        <td>@ModuleName</td>
+                    </tr>
+                    <tr>
+                        <th>ModuleType</th>
+                        <td>@ModuleType</td>
+                    </tr>
+                </table>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Teacher Name</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="attendenceList">
+                        @{ int counter = 0; }
+                        @for (int i = 0; i < Model.Count; i++)
+                        {
+                            <tr>
+                                @Html.HiddenFor(model => Model[i].ID)
+                                <td>@Html.DisplayFor(model => Model[i].FirstName) @Html.DisplayFor(model => Model[i].LastName)</td>
+                                <td>@Html.DisplayFor(model => Model[i].ModuleName) </td>
+                                <td>@Html.DisplayFor(model => Model[i].RoleName) </td>
+
+                            </tr>
+                        }
+                    </tbody>
+
+                    </table>
+                
+                    </div>
+
+
+
+
+                </div>
+                <span class="">
+                    <i class="fa fa-plus btn btn-outline-primary">
+                        @Html.ActionLink("Back to List", "Index")
+                    </i>
+                </span>
+            </div>
+        </div>

@@ -1,0 +1,92 @@
+﻿@model IList<StudentAttendence.Models.StudentsAttendence>
+
+@{
+    ViewBag.Title = "Index";
+    var ModuleName = ViewData["ModuleName"];
+    var ClassStartTime = ViewData["ClassStartTime"];
+    var ClassEndTime = ViewData["ClassEndTime"];
+    var Date = ViewData["Date"];
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <strong class="card-title">Student Attendece</strong>
+            </div>
+            <div class="card-body">
+                <table>
+                    <tr>
+                        <th>Date</th>
+                        <td>
+                            @DateTime.Now.ToString("MM/dd/yyyy")
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Module</th>
+                        <td>@ModuleName</td>
+                    </tr>
+                    <tr>
+                        <th>Time</th>
+                        <td>
+                           
+                            @ClassStartTime To @ClassEndTime
+                        </td>
+                    </tr>
+                </table>
+                @using (Ajax.BeginForm("Create", "Attendences", new AjaxOptions { UpdateTargetId = "attendenceList" }))
+                {
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">S.N.</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Status</th>
+                            </tr>
+                        </thead>
+
+                        @Html.AntiForgeryToken()
+                        <tbody id="attendenceList">
+                            @{ int counter = 0; }
+                            @for (int i = 0; i < Model.Count; i++)
+                            {
+                                counter = counter + 1;
+                                <tr>
+                                    @Html.HiddenFor(model => Model[i].StudentID)
+                                    @Html.HiddenFor(model => Model[i].TimetableID)
+                                    @Html.HiddenFor(model => Model[i].Date)
+
+                                    <td>@counter</td>
+                                    <td>@Html.DisplayFor(model => Model[i].FirstName) @Html.DisplayFor(model => Model[i].LastName)</td>
+                                    <td>
+                                        <text>
+                                            @Html.RadioButtonFor(modelItem => Model[i].Condition, "Present", new { @checked = true })
+                                            @Html.Label("Present")
+
+                                            @Html.RadioButtonFor(modelItem => Model[i].Condition, "Late")
+                                            @Html.Label("Late")
+
+                                            @Html.RadioButtonFor(modelItem => Model[i].Condition, "Absent")
+                                            @Html.Label("Absent")
+                                        </text>
+                                    </td>
+                                </tr>
+
+                            }
+                        </tbody>
+
+                    </table>
+                    <div class="card-footer">
+                        <div class="form-actions">
+                            <span>Submit this Record? </span>
+                            <div class="btn">
+                                <input type="submit" class="btn btn-sm btn-outline-primary" value="Yes" />
+                            </div>
+                            @Html.ActionLink("Back to Index Page", "Index")
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+     </div>   
+ </div>

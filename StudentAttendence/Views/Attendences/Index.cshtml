@@ -1,0 +1,138 @@
+﻿@model IEnumerable<StudentAttendence.Models.StudentsAttendence>
+
+@{
+    ViewBag.Title = "Index: Student Attendence";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <strong class="card-title"> Student Attendence </strong>
+            </div>
+            <div class="card-body">
+                <b>Start Attendence</b>
+                <div class="" id="start_attendence" style="border-style: solid; padding-left: 99px; border-width: inherit;">
+                    @using (Ajax.BeginForm("AttendencePage", "Attendences", new AjaxOptions { UpdateTargetId = "result" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="row form-group">
+                            <div class="col col-md-2">
+                                <label for="text-input" class=" form-control-label">Group ID</label>
+                            </div>
+                            <div class="col-md-2">
+                                @Html.DropDownList("GroupID", null, htmlAttributes: new { @class = "form-control" })
+                            </div>
+                            <div class="col col-md-2">
+                                <label for="text-input" class=" form-control-label">Timetable ID</label>
+                            </div>
+
+                            <div class="col-md-3">
+                                @Html.DropDownList("TimetableID", null, htmlAttributes: new { @class = "form-control" })
+                            </div>
+                            <div class="col-md-2">
+                                <div class="class=" btn btn-outline-success"">
+                                    <button type="submit" value="Start Attendence" class="btn btn-outline-primary"> <i class="fa fa-location-arrow"></i> Start Attendence</button>
+</div>
+                            </div>
+                        </div>
+
+                    }
+                </div>
+                <hr />
+                <b>Filter Attendence</b>
+                <div class="" id="" style="border-style: solid; padding-left: 99px; border-width: inherit;">
+                    @using (Ajax.BeginForm("FilterIndex", "Attendences", new AjaxOptions { UpdateTargetId = "result" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="row form-group">
+                            <div class="col col-md-2">
+                                <label for="text-input" class=" form-control-label">Group ID</label>
+                            </div>
+                            <div class="col-md-2">
+                                @Html.DropDownList("GroupID", null, htmlAttributes: new { @class = "form-control" })
+                            </div>
+                            <div class="col col-md-2">
+                                <label for="text-input" class=" form-control-label">Timetable ID</label>
+                            </div>
+
+                            <div class="col-md-3">
+                                @Html.DropDownList("TimetableID", null, htmlAttributes: new { @class = "form-control" })
+                            </div>
+                            <div class="col-md-2">
+                                <div class="class=" btn btn-outline-success"">
+                                    <button type="submit" value="View Attendence" class=" btn btn-outline-info"><i class="fa fa-filter"></i> View Attendence</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+                </div>
+                <hr />
+                <b> Attendence Records </b>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">S.N.</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Class Start time</th>
+                            <th scope="col">Class End time</th>
+                            <th scope="col">Module</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{ int counter = 0;
+                            foreach (var item in Model)
+                            {
+                                counter = counter + 1;
+                                                <tr>
+                                                    <th scope="row">@counter</th>
+                                                    <td>
+                                                        @Html.HiddenFor(modelItem => item.StudentID)
+                                                        @Html.DisplayFor(modelItem => item.FirstName) @Html.DisplayFor(modelItem => item.LastName)
+                                                    </td>
+
+                                                    <td>
+                                                        @Html.HiddenFor(modelItem => item.Date)
+                                                        @Html.HiddenFor(modelItem => item.TimetableID)
+                                                        @Html.FormatValue("yyy-MM-dd", item.Date.ToString("yyy-MM-dd"))
+
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.ClassStartTime)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.ClassEndTime)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.ModuleName)
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.Condition)
+                                                    </td>
+
+                                                    <td>
+                                                        <div class="btn btn-outline-success">
+                                                            <i class="fa fa-pencil"></i>
+                                                            @Html.ActionLink("Edit", "Edit", new { id = item.ID })
+                                                        </div>
+                                                        <div class="btn btn-outline-info">
+                                                            <i class="fa fa-eye"></i>
+                                                            @Html.ActionLink("Details", "Details", new { id = item.ID })
+                                                        </div>
+                                                        <div class="btn btn-outline-danger">
+                                                            <i class="fa fa-trash"></i>
+                                                            @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,90 @@
+﻿@model StudentAttendence.Models.ModuleTimetableBridge
+
+@{
+    ViewBag.Title = "Delete:Timetable";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <strong>Delete:</strong> @Html.DisplayFor(model => model.TimeTableId)
+            </div>
+        </div>
+        <div class="card-body card-block">
+
+            <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label"><b>Faculty Name</b></label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.DisplayFor(model => model.FacultyName, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label"><b>Semester</b></label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.DisplayFor(model => model.Semester, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label"><b>Module Name</b></label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.DisplayFor(model => model.ModuleName, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label"><b>Year</b></label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.DisplayFor(model => model.Year, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label"><b>Day</b></label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.DisplayFor(model => model.Day, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label"><b>Start Time</b></label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.DisplayFor(model => model.ClassStartTime, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label"><b>End Time</b></label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.DisplayFor(model => model.ClassEndTime, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+
+        </div>
+        <div class="card-footer">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-actions">
+                    <span>Do You Really want to Delete this record ? </span>
+                    <div class="btn">
+                        <button type="submit" class="btn btn-sm btn-outline-primary">Yes</button>
+                    </div>
+
+                    @Html.ActionLink("Back to Index Page", "Index")
+                </div>
+            }
+        </div>
+    </div>
+</div>

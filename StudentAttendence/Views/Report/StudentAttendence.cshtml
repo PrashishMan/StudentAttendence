@@ -1,0 +1,55 @@
+﻿@model IEnumerable<StudentAttendence.Models.StudentsAttendence>
+
+@{
+    ViewBag.Title = "Student Attendence Report";
+}
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    <strong class="card-title">Student Attendence List</strong>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">S.N.</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Module</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Condition</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{ int counter = 0;
+                                foreach (var item in Model)
+                                {
+                                    counter = counter + 1;
+                                    //int mainId = item.FacultyID;
+                                    <tr>
+                                        <th scope="row">@counter</th>
+
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.FirstName) @Html.DisplayFor(modelItem => item.LastName)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.ModuleName)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Date)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Condition)
+                                        </td>
+
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+

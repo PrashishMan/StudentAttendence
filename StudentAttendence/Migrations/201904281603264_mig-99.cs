@@ -1,0 +1,18 @@
+namespace StudentAttendence.Migrations
+{
+    using System;
+    using System.Data.Entity.Migrations;
+    
+    public partial class mig99 : DbMigration
+    {
+        public override void Up()
+        {
+           
+        }
+        
+        public override void Down()
+        {
+           
+        }
+    }
+}

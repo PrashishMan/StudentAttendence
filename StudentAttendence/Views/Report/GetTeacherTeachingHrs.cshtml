@@ -1,0 +1,57 @@
+﻿@model IList<StudentAttendence.Models.TeacherTeachingHrs>
+
+@{
+    ViewBag.Title = "GetTeacherTeachingHrs";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <strong class="card-title">Teacher Teaching Hour</strong>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Contact</th>
+                            <th scope="col">Total Minutes</th>
+                            <th scope="col">Module Name</th>
+                            <th scope="col">Role Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{ int counter = 0;
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.FirstName) @Html.DisplayFor(modelItem => item.LastName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Email)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Contact)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.TotalMinute)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ModuleName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.RoleName)
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,285 @@
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\StudentAttendence.dll.config
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\StudentAttendence.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\StudentAttendence.pdb
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\csc.exe
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\csc.exe.config
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\csc.rsp
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\csi.exe
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\csi.rsp
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\System.AppContext.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\vbc.exe
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\vbc.exe.config
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\vbc.rsp
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Antlr3.Runtime.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\EntityFramework.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\EntityFramework.SqlServer.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Newtonsoft.Json.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Owin.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Web.Helpers.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Web.Mvc.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Web.Optimization.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Web.Razor.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\WebGrease.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Web.Helpers.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Web.Mvc.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Web.Optimization.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Web.Razor.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Newtonsoft.Json.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Antlr3.Runtime.pdb
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\EntityFramework.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\EntityFramework.SqlServer.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.csproj.CoreCompileInputs.cache
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.csproj.CopyComplete
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.dll
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.pdb
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.InitialMigrations.resources
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.csproj.GenerateResource.cache
+C:\Users\Sushil\Desktop\College\C#\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.Faculty.resources
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\StudentAttendence.dll.config
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\StudentAttendence.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\StudentAttendence.pdb
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\csc.exe
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\csc.exe.config
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\csc.rsp
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\csi.exe
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\csi.rsp
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\System.AppContext.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\vbc.exe
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\vbc.exe.config
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\vbc.rsp
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\VBCSCompiler.exe
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Antlr3.Runtime.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\EntityFramework.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\EntityFramework.SqlServer.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Newtonsoft.Json.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Owin.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Web.Helpers.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Web.Mvc.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Web.Optimization.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Web.Razor.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.Razor.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\WebGrease.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Web.Helpers.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Web.Mvc.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Web.Optimization.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Web.Razor.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.Razor.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Newtonsoft.Json.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Antlr3.Runtime.pdb
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\EntityFramework.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\EntityFramework.SqlServer.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.csproj.CoreCompileInputs.cache
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.csproj.CopyComplete
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.dll
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.pdb
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.mig2.resources
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.csproj.GenerateResource.cache
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.addreport.resources
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.mig32.resources
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.mig33.resources
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.mig233.resources
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.mig112.resources
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.csprojAssemblyReference.cache
+C:\Users\Prashish\source\repos\StudentAttendence_CW\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.mig99.resources
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\StudentAttendence.dll.config
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\StudentAttendence.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\StudentAttendence.pdb
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\csc.exe
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\csc.exe.config
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\csc.rsp
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\csi.exe
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\csi.rsp
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\System.AppContext.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\vbc.exe
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\vbc.exe.config
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\vbc.rsp
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Antlr3.Runtime.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\EntityFramework.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\EntityFramework.SqlServer.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Newtonsoft.Json.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Owin.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Web.Helpers.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Web.Mvc.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Web.Optimization.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Web.Razor.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\WebGrease.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Web.Helpers.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Web.Mvc.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Web.Optimization.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Web.Razor.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Newtonsoft.Json.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Antlr3.Runtime.pdb
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\EntityFramework.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\EntityFramework.SqlServer.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.csprojAssemblyReference.cache
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.mig2.resources
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.addreport.resources
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.mig32.resources
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.mig33.resources
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.mig233.resources
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.mig112.resources
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.Migrations.mig99.resources
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.csproj.GenerateResource.cache
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.csproj.CoreCompileInputs.cache
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.csproj.CopyComplete
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.dll
+C:\Users\Sushil\source\repos\2018-19 A CC6004NI A1 CW Group Work 16033189 Sushil Shrestha\StudentAttendence\StudentAttendence\obj\Debug\StudentAttendence.pdb

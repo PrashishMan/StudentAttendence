@@ -1,0 +1,77 @@
+﻿@model IEnumerable<StudentAttendence.Models.Teacher>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <strong class="card-title">Teacher List</strong>
+            </div>
+            <div class="card-body">
+                @Html.Partial("actionAdmin")
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">S.N.</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Contact</th>
+                            @*<th scope="col">Hire Date</th>*@
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{ int counter = 0;
+                            foreach (var item in Model)
+                            {
+                                counter = counter + 1;
+                                <tr>
+                                    <th scope="row">@counter</th>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.FirstName) @Html.DisplayFor(modelItem => item.LastName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Email)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Contact)
+                                    </td>
+                                    @*<td>
+                                @Html.DisplayFor(modelItem => item.HireDate)
+                            </td>*@
+                                    <td>
+                                        @if (User.IsInRole("Admin") || User.IsInRole("Student_Service"))
+                                        {
+                                            <div class="btn btn-outline-success">
+                                                <i class="fa fa-pencil"></i>
+                                                @Html.ActionLink("Edit", "Edit", new { id = item.TeacherID })
+                                            </div>
+                                        }
+                                        <div class="btn btn-outline-info">
+                                            <i class="fa fa-eye"></i>
+                                            @Html.ActionLink("Details", "Details", new { id = item.TeacherID })
+                                        </div>
+                                        @if (User.IsInRole("Admin"))
+                                        {
+                                            <div class="btn btn-outline-danger">
+                                                <i class="fa fa-trash"></i>
+                                                @Html.ActionLink("Delete", "Delete", new { id = item.TeacherID })
+                                            </div>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+
+
+                </table>
+
+            </div>
+
+        </div>
+    </div>
+</div>

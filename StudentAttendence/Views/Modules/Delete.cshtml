@@ -1,0 +1,71 @@
+﻿@model StudentAttendence.Models.FacultyModule
+
+@{
+    ViewBag.Title = "Delete: Module";
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <strong>Delete:</strong> @Html.DisplayFor(model => model.ModuleName)
+            </div>
+        </div>
+        <div class="card-body card-block">
+            <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label"><b>Faculty ID</b></label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.DisplayFor(model => model.FacultyID, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label"><b>Semester No</b></label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.DisplayFor(model => model.SemesterNo, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label"><b>Module Name</b></label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.DisplayFor(model => model.ModuleName, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label"><b>Module Type</b></label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.DisplayFor(model => model.ModuleType, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label"><b>Credit</b></label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.DisplayFor(model => model.Credit, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-actions">
+                    <span>Do You Really want to Delete this record ? </span>
+                    <div class="btn">
+                        <button type="submit" class="btn btn-sm btn-outline-primary">Yes</button>
+                    </div>
+
+                    @Html.ActionLink("Back to Index Page", "Index")
+                </div>
+            }
+        </div>
+    </div>
+</div>

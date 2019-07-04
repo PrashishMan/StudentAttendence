@@ -1,0 +1,54 @@
+﻿@model StudentAttendence.Models.Role
+
+@{
+    ViewBag.Title = "Details: Student";
+}
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <strong>Details :</strong>@Html.DisplayFor(model => model.RoleID)
+            </div>
+            <div class="card-body card-block">
+
+                <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label">Role Name</label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.EditorFor(model => model.RoleName, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                    @Html.ValidationMessageFor(model => model.RoleName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label">Qualification</label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.EditorFor(model => model.Qualification, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                    @Html.ValidationMessageFor(model => model.Qualification, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col col-md-10">
+
+                </div>
+                <div class="col col-md-2">
+                    <div class="btn btn-outline-success">
+                        <i class="fa fa-pencil"></i>
+                        @Html.ActionLink("Edit Record", "Edit", new { id = Model.RoleID })
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <span class="">
+            <i class="fa fa-plus btn btn-outline-primary">
+                @Html.ActionLink("Back to List", "Index")
+            </i>
+        </span>
+    </div>
+</div>

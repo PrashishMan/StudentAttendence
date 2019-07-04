@@ -1,0 +1,52 @@
+﻿@model StudentAttendence.Models.Role
+
+@{
+    ViewBag.Title = "Delete: Role";
+}
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <strong>Delete:</strong> @Html.DisplayFor(model => model.RoleID)
+            </div>
+        </div>
+        <div class="card-body card-block">
+            <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label"><b>Role</b></label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.DisplayFor(model => model.RoleName, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+        </div>
+        <div class="card-body card-block">
+            <div class="row form-group">
+                <div class="col col-md-2">
+                    <label for="text-input" class=" form-control-label"><b>Qualification</b></label>
+                </div>
+                <div class="col-12 col-md-8">
+                    @Html.DisplayFor(model => model.Qualification, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-actions">
+                    <span>Do You Really want to Delete this record ? </span>
+                    <div class="btn">
+                        <button type="submit" class="btn btn-sm btn-outline-primary">Yes</button>
+                    </div>
+
+                    @Html.ActionLink("Back to Index Page", "Index")
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

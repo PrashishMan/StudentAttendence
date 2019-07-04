@@ -1,0 +1,81 @@
+﻿@model IEnumerable<StudentAttendence.Models.GroupTimetableBridge>
+
+@{
+    ViewBag.Title = "Index: Group Timetable";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <strong class="card-title">Group Timetable List</strong>
+            </div>
+            <div class="card-body">
+                @Html.Partial("actionAdmin")
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">S.N.</th>
+                            <th scope="col">Group ID</th>
+                            <th scope="col">Module Name</th>
+                            <th scope="col">Class Starttime</th>
+                            <th scope="col">Class Endtime</th>
+                            <th scope="col">Day</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{ int counter = 0;
+                            foreach (var item in Model)
+                            {
+                                counter = counter + 1;
+                                                <tr>
+                                                    <th scope="row">@counter</th>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.GroupID)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.ModuleName)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.ClassStartTime)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.ClassEndTime)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.Day)
+                                                    </td>
+                                                    <td>
+                                                        @if (User.IsInRole("Admin") || User.IsInRole("Student_Service"))
+                                                        {
+                                                            <div class="btn btn-outline-success">
+                                                                <i class="fa fa-pencil"></i>
+                                                                @Html.ActionLink("Edit", "Edit", new {id = item.ID})
+                                                            </div>
+                                                        }
+                                                        <div class="btn btn-outline-info">
+                                                            <i class="fa fa-eye"></i>
+                                                            @Html.ActionLink("Details", "Details", new {id = item.ID})
+                                                        </div>
+                                                        @if (User.IsInRole("Admin"))
+                                                        {
+                                                            <div class="btn btn-outline-danger">
+                                                                <i class="fa fa-trash"></i>
+                                                                @Html.ActionLink("Delete", "Delete", new {id = item.ID })
+                                                            </div>
+                                                        }
+                                                    </td>
+                                                </tr>
+                            }
+                        }
+                    </tbody>
+
+
+                </table>
+
+            </div>
+
+        </div>
+    </div>
+</div>

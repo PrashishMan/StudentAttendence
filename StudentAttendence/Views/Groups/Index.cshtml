@@ -1,0 +1,72 @@
+﻿@model IEnumerable<StudentAttendence.Models.FacultyGroup>
+
+@{
+    ViewBag.Title = "Index: Group";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <strong class="card-title">Group List</strong>
+            </div>
+            <div class="card-body">
+                @Html.Partial("actionAdmin")
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">S.N.</th>
+                            <th scope="col">Faculty Name</th>
+                            <th scope="col">Group ID</th>
+                            <th scope="col">Created Date</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{ int counter = 0;
+                            foreach (var item in Model)
+                            {
+                                counter = counter + 1;
+                                //int mainId = item.FacultyID;
+                        <tr>
+                            <th scope="row">@counter</th>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FacultyName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.GroupID)
+                            </td>
+                            <td>
+                                @Html.HiddenFor(modelItem => item.CreateDate)
+                                @Html.FormatValue("yyy-MM-dd", item.CreateDate.ToString("yyy-MM-dd"))
+                                
+                            </td>
+                            <td>
+                                @if (User.IsInRole("Admin") || User.IsInRole("Student_Service"))
+                                {
+                                    <div class="btn btn-outline-success">
+                                        <i class="fa fa-pencil"></i>
+                                        @Html.ActionLink("Edit", "Edit", new { id = item.GroupID })
+                                    </div>
+                                }
+                                <div class="btn btn-outline-info">
+                                    <i class="fa fa-eye"></i>
+                                    @Html.ActionLink("Details", "Details", new { id = item.GroupID })
+                                </div>
+                                @if (User.IsInRole("Admin"))
+                                {
+                                    <div class="btn btn-outline-danger">
+                                        <i class="fa fa-trash"></i>
+                                        @Html.ActionLink("Delete", "Delete", new { id = item.GroupID })
+                                    </div>
+                                }
+                            </td>
+                        </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

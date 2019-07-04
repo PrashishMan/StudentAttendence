@@ -1,0 +1,84 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<style>
+    .card {
+        height: 170px;
+    }
+
+        .card .box-title {
+            text-align: center;
+            font-size: 29px;
+            font-weight: 800;
+            padding-top: 40px;
+        }
+</style>
+
+<div class="">
+
+    <h4 style="font-size: 40px;font-weight: 600;">Welcome to Student Attendence System</h4>
+    <br />
+    @if (!Request.IsAuthenticated)
+    {
+        @Html.Partial("~/Views/Account/Login.cshtml")
+    }
+
+    else
+    {
+    <div class="row">
+        <div class="col-lg-3" style="height:200px">
+            <div class="card">
+                <a href="@Url.Action("Index", "Attendences")">
+                    <div class="card-body">
+                        <h4 class="box-title"> Attendences </h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="card">
+                <a href="@Url.Action("Index", "Modules")">
+                    <div class="card-body">
+                        <h4 class="box-title"> Module </h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="card">
+                <a href="@Url.Action("Index", "Students")">
+                    <div class="card-body">
+                        <h4 class="box-title"> Students </h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="card">
+                <a href="@Url.Action("Index", "Teachers")">
+                    <div class="card-body">
+                        <h4 class="box-title"> Teachers </h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+        <div class="row">
+            <div class="col-sm-9"></div>
+            <div class="col-sm-3">
+                <dl>
+                    <dt>Developers:</dt>
+                    <dd>&emsp; -&nbsp; Prashish Man Singh</dd>
+                    <dd>&emsp; -&nbsp; Sushil Shrestha</dd>
+                    <dd>&emsp; -&nbsp; Asmita Rai</dd>
+                    <dd>&emsp; -&nbsp; Nischal Chapagain</dd>
+                </dl>
+            </div>
+        </div>
+
+    }
+</div>

@@ -1,0 +1,33 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+<div class="user-area dropdown float-right">
+    <a href="#" class="dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        @User.Identity.Name
+    </a>
+    <div class="user-menu dropdown-menu">
+        @if (User.IsInRole("Admin"))
+        {
+            <a href="@Url.Action("Index","Manage")" class="nav-link"><i class="fa fa-user"></i>Manage User</a>
+        }
+        <a href="javascript:document.getElementById('logoutForm').submit()" class="nav-link"><i class="fa fa-sign-out"></i>Logout</a>
+    </div>
+</div>
+    }
+}
+else
+{
+    <div class="user-area dropdown float-right">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Not Logged In ?
+        </a>
+        <div class="user-menu dropdown-menu">
+            <a href="@Url.Action("Login","Account")" class="nav-link"><i class="fa fa-sign-in"></i>Log In</a>
+            <a href="@Url.Action("Register","Account")" class="nav-link"><i class="fa fa-hand-o-right"></i>Register</a>
+        </div>
+    </div>
+}

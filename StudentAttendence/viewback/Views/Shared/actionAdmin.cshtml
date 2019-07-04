@@ -1,0 +1,8 @@
+﻿@if (User.IsInRole("Admin"))
+{
+    <div class="" style="padding-bottom: 20px;">
+        <i class="fa fa-plus btn btn-outline-primary">
+            @Html.ActionLink("Add New Record", "Create")
+        </i>
+    </div>
+}

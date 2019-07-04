@@ -1,0 +1,100 @@
+﻿@{
+    var isAdmin = User.IsInRole("Admin");
+    var isTeacher = User.IsInRole("Teacher");
+    var isStudentService = User.IsInRole("Student_Service");
+
+}
+
+@if (Request.IsAuthenticated)
+{
+<ul class="nav navbar-nav">
+    <li class="menu-item">
+        <a href="@Url.Action("Index", "Home")">
+            <i class="menu-icon fa fa-home"></i>Home
+        </a>
+    </li>
+
+    <li class="menu-item">
+        <a href="@Url.Action("Index", "Attendences")">
+            <i class="menu-icon fa fa-check-circle"></i> Attendences
+        </a>
+    </li>
+
+    <li class="menu-item">
+        <a href="@Url.Action("Index", "Report")">
+            <i class="menu-icon fa fa-list-alt"></i>Report
+        </a>
+    </li>
+
+    <li class="menu-item">
+        <a href="@Url.Action("Index", "Students")">
+            <i class="menu-icon fa fa-users"></i>Student
+        </a>
+    </li>
+
+    <li class="menu-item">
+        <a href="@Url.Action("Index", "ModuleGroups")">
+            <i class="menu-icon fa fa-object-group"></i>Student Group Module 
+        </a>
+    </li>
+
+    <li class="menu-item">
+        <a href="@Url.Action("Index", "Modules")">
+            <i class="menu-icon fa fa-book"></i>Modules
+        </a>
+    </li>
+
+    <li class="menu-item">
+        <a href="@Url.Action("Index", "GroupTimetables")">
+            <i class="menu-icon fa fa-sitemap"></i>Group Timetables
+        </a>
+    </li>  
+
+
+    @if (isAdmin || isStudentService)
+    {
+        <li class="menu-item">
+            <a href="@Url.Action("Index", "Groups")">
+                <i class="menu-icon fa fa-circle"></i>Student Group
+            </a>
+        </li>
+
+        <li class="menu-item">
+            <a href="@Url.Action("Index", "Faculty")">
+                <i class="menu-icon fa fa-building-o"></i>Faculty
+            </a>
+        </li>
+
+        <li class="menu-item">
+            <a href="@Url.Action("Index", "Roles")">
+                <i class="menu-icon fa fa-suitcase"></i>Roles
+            </a>
+        </li>
+
+        <li class="menu-item">
+            <a href="@Url.Action("Index", "Teachers")">
+                <i class="menu-icon fa fa-user"></i>Teachers
+            </a>
+        </li>
+
+        <li class="menu-item">
+            <a href="@Url.Action("Index", "TeacherRoles")">
+                <i class="menu-icon fa fa-tasks"></i>Teacher Roles
+            </a>
+        </li>
+
+        <li class="menu-item">
+            <a href="@Url.Action("Index", "Timetables")">
+                <i class="menu-icon fa fa-calendar"></i>Timetables
+            </a>
+        </li>
+
+        <li class="menu-item">
+            <a href="@Url.Action("Index", "Semesters")">
+                <i class="menu-icon fa fa-globe"></i>Semesters
+            </a>
+        </li>
+
+    }
+</ul>
+}

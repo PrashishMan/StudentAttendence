@@ -1,0 +1,72 @@
+﻿@model IEnumerable<StudentAttendence.Models.Semester>
+
+@{
+    ViewBag.Title = "Index: Semester";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <strong class="card-title">Semester List</strong>
+            </div>
+            <div class="card-body">
+                @Html.Partial("actionAdmin")
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">S.N.</th>
+                            <th scope="col">Semester No</th>
+                            <th scope="col">Start Date</th>
+                            <th scope="col">End Date</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{ int counter = 0;
+                            foreach (var item in Model)
+                            {
+                                counter = counter + 1;
+                                <tr>
+                                    <th scope="row">@counter</th>
+                                    <td>
+
+                                        @Html.DisplayFor(modelItem => item.SemesterID)
+                                    </td>
+                                    <td>
+                                        @Html.HiddenFor(modelItem => item.SemesterStartDate)
+                                        @Html.FormatValue("yyy-MM-dd", item.SemesterStartDate.ToString("yyy-MM-dd"))
+                                    </td>
+                                    <td>
+                                        @Html.HiddenFor(modelItem => item.SemesterEndDate)
+                                        @Html.FormatValue("yyy-MM-dd", item.SemesterEndDate.ToString("yyy-MM-dd"))
+                                    </td>
+                                    <td>
+                                        @if (User.IsInRole("Admin") || User.IsInRole("Student_Service"))
+                                        {
+                                            <div class="btn btn-outline-success">
+                                                <i class="fa fa-pencil"></i>
+                                                @Html.ActionLink("Edit", "Edit", new { id = item.SemesterID })
+                                            </div>
+                                        }
+                                        <div class="btn btn-outline-info">
+                                            <i class="fa fa-eye"></i>
+                                            @Html.ActionLink("Details", "Details", new { id = item.SemesterID })
+                                        </div>
+                                        @if (User.IsInRole("Admin"))
+                                        {
+                                            <div class="btn btn-outline-danger">
+                                                <i class="fa fa-trash"></i>
+                                                @Html.ActionLink("Delete", "Delete", new { id = item.SemesterID })
+                                            </div>
+                                        }
+                                        </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
